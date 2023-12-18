@@ -49,10 +49,10 @@ setPayamt(amountpay)
      
         </Col>
             <Col  xl={5} className=' head-name p-5 ' >
-            <h3>You are Saving </h3>
+            <h3>Saving </h3>
             <p className='text-white fw-bold'>₹ {discountamt} /-</p>
             
-            <h3>Amount You Pay</h3>
+            <h3>Amount</h3>
             <p className='text-white fw-bold'> ₹ {payamt} /-</p>
             <Button variant="primary" type="submit" onClick={reset} className='btn btn-warning fw-medium mt-3'>  Reset  </Button>
             </Col>
