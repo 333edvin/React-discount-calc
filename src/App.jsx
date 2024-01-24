@@ -29,7 +29,7 @@ setPayamt(amountpay)
  }
   return (
       <div className="App">
-       <Container >
+       <Container className='container'>
        
       <Row className='row mt-5 p-4 rounded-4'>
         <Col  className='p-5'>
@@ -49,11 +49,11 @@ setPayamt(amountpay)
      
         </Col>
             <Col  xl={5} className=' head-name p-5 ' >
+            <h3>Amount</h3>
+            <p className='text-white fw-bold'> ₹ {payamt} /-</p>
             <h3>Saving </h3>
             <p className='text-white fw-bold'>₹ {discountamt} /-</p>
             
-            <h3>Amount</h3>
-            <p className='text-white fw-bold'> ₹ {payamt} /-</p>
             <Button variant="primary" type="submit" onClick={reset} className='btn btn-warning fw-medium mt-3'>  Reset  </Button>
             </Col>
         </Row>

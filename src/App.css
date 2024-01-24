@@ -4,11 +4,17 @@ body{
   justify-content: center;
 }
 
-.row{
-  background-color: rgb(15, 15, 15);
-}
+
 .head-name{
   color:rgb(175, 88, 255) ;
   font-size: 58px;
+  font-weight: bold;
   font-family: 'Playfair Display', serif;
+}
+.container{
+  background:linear-gradient(145deg,#303030,rgb(10, 10, 10));
+  box-shadow: inset 5px 1px 5px #414141,
+  inset -5px -2px 5px rgb(2, 2, 2);
+  color: rgb(255, 255, 255);
+  transition: all 0.1s ease-in;
 }
